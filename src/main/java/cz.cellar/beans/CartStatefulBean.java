@@ -4,14 +4,13 @@ import cz.cellar.interfaces.LocalCart;
 import cz.cellar.interfaces.RemoteCart;
 import cz.cellar.models.Item;
 import cz.cellar.models.Order;
-
 import javax.annotation.PostConstruct;
-import javax.annotation.security.DeclareRoles;
 import javax.ejb.Remove;
 import javax.ejb.Stateful;
 import java.util.ArrayList;
 import java.util.List;
 
+//Výpis 2
 @Stateful
 public class CartStatefulBean implements LocalCart, RemoteCart {
 

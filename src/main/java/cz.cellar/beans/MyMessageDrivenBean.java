@@ -5,6 +5,7 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
+//Výpis 4
 @MessageDriven
 public class MyMessageDrivenBean implements MessageListener {
     @Override
